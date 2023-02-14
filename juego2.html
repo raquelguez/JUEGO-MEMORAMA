@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>JUEGO 2</title>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <div class="contenedor head">
+            <h1 class="titulo">Ponte a prueba</h1> 
+            <p class="copy">¿Qué edad mental tienes?</p>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <button class="refresh" id="refresh" onclick="refrescarPagina()"><i class='bx bx-refresh'></i></button>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="destapar(0)"></button></td>
+                    <td><button id="1" onclick="destapar(1)"></button></td>
+                    <td><button id="2" onclick="destapar(2)"></button></td>
+                    <td><button id="3" onclick="destapar(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="destapar(4)"></button></td>
+                    <td><button id="5" onclick="destapar(5)"></button></td>
+                    <td><button id="6" onclick="destapar(6)"></button></td>
+                    <td><button id="7" onclick="destapar(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="destapar(8)"></button></td>
+                    <td><button id="9" onclick="destapar(9)"></button></td>
+                    <td><button id="10" onclick="destapar(10)"></button></td>
+                    <td><button id="11" onclick="destapar(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="destapar(12)"></button></td>
+                    <td><button id="13" onclick="destapar(13)"></button></td>
+                    <td><button id="14" onclick="destapar(14)"></button></td>
+                    <td><button id="15" onclick="destapar(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+            <h2 id="t-restante" class="estadisticas">Tiempo: 60 segundos</h2>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="section3">
+            <h2 id="normas" class="normas">Normas del juego</h2>
+            <h3><span class="number">1</span></h3>
+            <p>Un turno consiste en intentar adivinar una pareja de cartas escogiendo dos.</p>
+            <h3><span class="number">2</span></h3>
+            <p>Si las dos cartas escogidas son semejantes, se mantienen volteadas. Si no, vuelven a mostrar el reverso.</p>
+            <h3><span class="number">3</span></h3>
+            <p>El juego termina cuando se han encontrado todas las parejas.</p>
+        </section>
+    </footer>
+
+    <script src="./juego2.js"></script>
+</body>
+
+</html>
