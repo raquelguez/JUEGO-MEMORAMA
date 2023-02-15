@@ -18,9 +18,7 @@ El memorama es un juego que puede ayudar a memorizar conceptos e información. E
 
 ## 🚀 Raquel Rodríguez Sebastián
 
-Me llamo Raquel y estoy empezando en el mundo del desarrollo web. Hice un bootcamp intensivo de Javascript y este fue mi Proyecto en el Módulo 1. 
-
-Fui capaz de desarrollar una Fan Page con un Mock up y una línea estética muy bien definida, así como realizar el Fetch Data a una API.
+Me llamo Raquel y estoy empezando en el mundo del desarrollo web. Hice un bootcamp intensivo de Javascript.
 
 ### 💌 Contacto
 Si quieres seguir mi progreso sígueme en mis Redes Sociales:
